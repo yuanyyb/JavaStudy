@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="" />
+    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="本地代码提交到远程">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/泛型练习/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/泛型练习/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/泛型练习/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/泛型练习/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +176,19 @@
       <option name="presentableId" value="Default" />
       <updated>1591880516182</updated>
     </task>
+    <task id="LOCAL-00001" summary="本地代码提交到远程">
+      <created>1593343498951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593343498951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="本地代码提交到远程" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地代码提交到远程" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1591880676580">
@@ -219,6 +235,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593343206038" />
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593343513458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593343513458" />
     <state x="499" y="160" key="extract.method.dialog" timestamp="1592479660605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

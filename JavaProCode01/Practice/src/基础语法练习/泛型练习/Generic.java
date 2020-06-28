@@ -11,5 +11,8 @@ public class Generic<T> {
         this.t = t;
     }
 
+    public void show(){
+        System.out.println(this.getT());
+    }
 
 }
