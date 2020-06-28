@@ -5,5 +5,6 @@ public class Test {
         Generic<Integer> o = new Generic<Integer>();
         o.setT(6);
         o.show();
+        System.out.println('s');
     }
 }
