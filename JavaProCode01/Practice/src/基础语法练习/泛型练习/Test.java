@@ -6,7 +6,6 @@ public class Test {
         o.setT(6);
         o.show();
         System.out.println("1111111");
-        System.out.println("22222222");
         System.out.println('s');
     }
 }
