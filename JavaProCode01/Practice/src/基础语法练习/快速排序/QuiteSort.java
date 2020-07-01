@@ -38,6 +38,31 @@ public class QuiteSort {
         if(left>right){
             return;
         }
+        int left0 = left;
+        int right0 = right;
+        int baseNum = arr[left0];
+        while(left!=right){
+            while(arr[right]>=baseNum&&left<right){
+                right--;
+            }
+            while(arr[left]<=baseNum&&left<right){
+                left++;
+            }
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+        }
+        int tp = arr[left0];
+        arr[left0] = arr[left];
+        arr[left] = tp;
+        quiteArr(arr,left0,left-1);
+        quiteArr(arr,left+1,right0);
+    }*/
+
+    /*private static void quiteArr(int[] arr, int left, int right) {
+        if(left>right){
+            return;
+        }
         int left0=left;
         int rigth0 = right;
         int baseNum=arr[left0];

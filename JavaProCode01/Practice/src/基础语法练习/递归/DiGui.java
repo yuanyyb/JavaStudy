@@ -16,6 +16,14 @@ public class DiGui {
         }
     }
 
+    /*private static int getNumM(int i) {
+        if(i==1){
+            return 1;
+        }else{
+            return i*getNumM(i-1);
+        }
+    }*/
+
     private static int getNumSum(int i) {
         if(i==1){
             return 1;

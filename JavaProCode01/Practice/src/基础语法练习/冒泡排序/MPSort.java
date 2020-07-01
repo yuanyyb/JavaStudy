@@ -7,10 +7,21 @@ public class MPSort {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
-
     }
 
     private static void getSort(int[] arr) {
+        for(int x=0;x<arr.length-1;x++){
+            for(int i=0;i<arr.length-1-x;i++){
+                if(arr[i]>=arr[i+1]){
+                    int temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                }
+            }
+        }
+    }
+
+    /*private static void getSort(int[] arr) {
         for(int x=0;x<arr.length-1;x++){
             for(int i=0;i<arr.length-1 -x;i++){
                 if(arr[i]>arr[i+1]){
@@ -20,7 +31,7 @@ public class MPSort {
                 }
             }
         }
-    }
+    }*/
 
     /*private static void getSort(int[] arr) {
         for(int x=0;x<arr.length-1;x++){
