@@ -27,14 +27,10 @@ public class Test {
         System.out.println(c);*/
 
 
-        Collection<String> arr=new ArrayList<String>();
-
+        /*Collection<String> arr=new ArrayList<String>();
         arr.add("张无忌");
-
         arr.add("张翠山");
-
         arr.add("赵敏");
-
         arr.add("杨不悔");
         Iterator<String> iterator = arr.iterator();
         while(iterator.hasNext()){
@@ -44,7 +40,21 @@ public class Test {
                 iterator.remove();//此时不报异常且成功删除(此处调用的Itr)
             }
         }
-        System.out.println(arr);
+        System.out.println(arr);*/
+
+        Map<String,String> map = new HashMap<>();
+        map.put("1号丈夫","1号妻子");
+        map.put("2号丈夫","2号妻子");
+        map.put("3号丈夫","3号妻子");
+        map.put("4号丈夫","4号妻子");
+
+        Set<Map.Entry<String,String>> entries = map.entrySet();
+        for(Map.Entry<String,String> entry :entries)
+        {
+            String key = entry.getKey();
+            String value = entry.getValue();
+            System.out.println(key+"---"+value);
+        }
     }
 
 }

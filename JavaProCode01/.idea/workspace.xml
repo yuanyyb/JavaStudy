@@ -25,12 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="lamdba练习签入">
+    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="HashTable作业签入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/src/Test8_11/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/Test8_11/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/src/Test8_11/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/Test8_11/Test02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/src/Test8_5/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/Test8_5/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task/src/Test8_5/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/Test8_5/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/集合/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/集合/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Test02">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="基础语法练习.集合.Test" />
       <module name="Practice" />
@@ -186,10 +183,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test02" />
         <item itemvalue="Application.Test02 (1)" />
         <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test06" />
       </list>
     </recent_temporary>
@@ -282,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593887737710</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HashTable作业签入">
+      <created>1594136784868</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594136784868</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,7 +327,8 @@
     <MESSAGE value="项目文件添加" />
     <MESSAGE value="lamdba练习签入" />
     <MESSAGE value="泛型练习代码签入" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型练习代码签入" />
+    <MESSAGE value="HashTable作业签入" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable作业签入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" width="761" height="276" key="#Notifications" timestamp="1593505840848">
@@ -418,14 +423,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593499865364" />
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593887750613">
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594136872477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593887750613" />
-    <state x="499" y="160" key="extract.method.dialog" timestamp="1592479660605">
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594136872477" />
+    <state x="499" y="160" key="extract.method.dialog" timestamp="1594138131015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1592479660605" />
+    <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594138131015" />
     <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1593883153728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
