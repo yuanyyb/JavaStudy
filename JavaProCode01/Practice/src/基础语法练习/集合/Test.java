@@ -48,6 +48,13 @@ public class Test {
         map.put("3号丈夫","3号妻子");
         map.put("4号丈夫","4号妻子");
 
+        //1.第一种遍历
+        Set<String> keys = map.keySet();
+        for(String key:keys)
+        {
+            System.out.println(key+"----"+map.get(key));
+        }
+        //2.第二种遍历
         Set<Map.Entry<String,String>> entries = map.entrySet();
         for(Map.Entry<String,String> entry :entries)
         {
@@ -55,6 +62,13 @@ public class Test {
             String value = entry.getValue();
             System.out.println(key+"---"+value);
         }
+        //3.forEach(lambda)遍历
+        map.forEach((key,value)->{
+            System.out.println(key+"---"+value);
+        });
+
+
+
     }
 
 }
