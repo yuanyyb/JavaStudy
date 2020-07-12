@@ -25,29 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="Stream流操作练习签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File类基本操作/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File类基本操作/aaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File练习/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File练习/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File练习/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File练习/aaa/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/File练习/bbb/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test8_15/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test8_15/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test8_15/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test8_15/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test01/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test01/aaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test01/bbb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test02/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test02/Test9_1_02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test03/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test04/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test05/Test05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test05/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test06/Test06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_1/Test07/Test07.java" afterDir="false" />
+    <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="File文件操作练习和作业代码签入">
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/字节缓冲输入输出流复制文件操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/文件复制案例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/输入流基本操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/输出流基本操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +78,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Test07">
+  <component name="RunManager" selected="Application.Test06">
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test8_13.Test01.Test01" />
+      <option name="MAIN_CLASS_NAME" value="Test9_2.Test01" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test8_13.Test01.*" />
+          <option name="PATTERN" value="Test9_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_1.Test03.Test03" />
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test9_2.Test02" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_1.Test03.*" />
+          <option name="PATTERN" value="Test9_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test9_2.Test03" />
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test9_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,24 +119,11 @@
       </method>
     </configuration>
     <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_1.Test04.Test04" />
+      <option name="MAIN_CLASS_NAME" value="Test9_2.Test04" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_1.Test04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_1.Test05.Test05" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test9_1.Test05.*" />
+          <option name="PATTERN" value="Test9_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,24 +132,11 @@
       </method>
     </configuration>
     <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_1.Test06.Test06" />
+      <option name="MAIN_CLASS_NAME" value="Test9_2.Test06" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_1.Test06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_1.Test07.Test07" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test9_1.Test07.*" />
+          <option name="PATTERN" value="Test9_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test07" />
         <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.Test03 (1)" />
+        <item itemvalue="Application.Test03" />
+        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594397705515</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="File文件操作练习和作业代码签入">
+      <created>1594487856127</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594487856127</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +369,8 @@
     <MESSAGE value="Map基本使用签入" />
     <MESSAGE value="HashMap作业" />
     <MESSAGE value="Stream流操作练习签入" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream流操作练习签入" />
+    <MESSAGE value="File文件操作练习和作业代码签入" />
+    <option name="LAST_COMMIT_MESSAGE" value="File文件操作练习和作业代码签入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="67" key="#Auto_Import" timestamp="1594479556235">
@@ -427,38 +409,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593343263545" />
-    <state width="1390" height="159" key="GridCell.Tab.0.bottom" timestamp="1594481571286">
+    <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1594567538146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="159" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594481571286" />
-    <state width="1390" height="159" key="GridCell.Tab.0.center" timestamp="1594481571285">
+    <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
+    <state width="1493" height="134" key="GridCell.Tab.0.center" timestamp="1594567538146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="159" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594481571285" />
-    <state width="1390" height="159" key="GridCell.Tab.0.left" timestamp="1594481571285">
+    <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
+    <state width="1493" height="134" key="GridCell.Tab.0.left" timestamp="1594567538146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="159" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594481571285" />
-    <state width="1390" height="159" key="GridCell.Tab.0.right" timestamp="1594481571285">
+    <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
+    <state width="1493" height="134" key="GridCell.Tab.0.right" timestamp="1594567538146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="159" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594481571285" />
-    <state width="1390" height="174" key="GridCell.Tab.1.bottom" timestamp="1594478803743">
+    <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
+    <state width="1390" height="174" key="GridCell.Tab.1.bottom" timestamp="1594487878264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="174" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594478803743" />
-    <state width="1390" height="174" key="GridCell.Tab.1.center" timestamp="1594478803742">
+    <state width="1390" height="174" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
+    <state width="1390" height="174" key="GridCell.Tab.1.center" timestamp="1594487878264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="174" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594478803742" />
-    <state width="1390" height="174" key="GridCell.Tab.1.left" timestamp="1594478803742">
+    <state width="1390" height="174" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
+    <state width="1390" height="174" key="GridCell.Tab.1.left" timestamp="1594487878263">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="174" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594478803742" />
-    <state width="1390" height="174" key="GridCell.Tab.1.right" timestamp="1594478803742">
+    <state width="1390" height="174" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594487878263" />
+    <state width="1390" height="174" key="GridCell.Tab.1.right" timestamp="1594487878264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1390" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594478803742" />
+    <state width="1390" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
     <state x="86" y="10" key="MergeDialog" timestamp="1593358862966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -487,18 +469,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593499865364" />
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594397710756">
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594487858148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594397710756" />
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594487858148" />
     <state x="499" y="160" key="extract.method.dialog" timestamp="1594395963207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594395963207" />
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1594462590788">
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1594566336136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594462590788" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594566336136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
