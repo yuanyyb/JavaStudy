@@ -1,0 +1,5 @@
+#Fri Jul 17 20:53:35 CST 2020
+lisi=100
+李四=90
+zhangsan=29
+lisa=99

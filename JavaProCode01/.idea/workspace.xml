@@ -26,15 +26,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="File文件操作练习和作业代码签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/字节缓冲输入输出流复制文件操作.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/文件复制案例.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/输入流基本操作.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/输出流基本操作.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task/src/Test9_2/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/Properties/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/Properties/aaa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/字符流操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/字符缓冲流操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/对象输入输出流操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/IO操作/输出输入流操作/转换流操作.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/Callable和Future实现/CallLei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/Callable和Future实现/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/Runable实现/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/Runable实现/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/继承Thread实现/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/基本使用/继承Thread实现/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test10_1/Test01/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test10_1/Test01/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test10_1/Test04/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test10_1/Test04/ThreadLei1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test10_1/Test04/ThreadLei2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_4/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_7/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_7/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_8/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_8/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_8/a.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/src/Test9_8/score.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +94,83 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Test06">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test10_1.Test04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.基本使用.继承Thread实现.Test" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础语法练习.多线程.基本使用.继承Thread实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.基本使用.Runable实现.Test" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础语法练习.多线程.基本使用.Runable实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.基本使用.Callable和Future实现.Test" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础语法练习.多线程.基本使用.Callable和Future实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test10_1.Test04.Test" />
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test10_1.Test04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test10_1.Test01.Test01" />
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test10_1.Test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_2.Test01" />
+      <option name="MAIN_CLASS_NAME" value="Test9_7.Test01" />
       <module name="Task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_2.*" />
+          <option name="PATTERN" value="Test9_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_2.Test02" />
-      <module name="Task" />
+    <configuration name="字符缓冲流操作" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.IO操作.输出输入流操作.字符缓冲流操作" />
+      <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_2.*" />
+          <option name="PATTERN" value="基础语法练习.IO操作.输出输入流操作.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,38 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_2.Test03" />
-      <module name="Task" />
+    <configuration name="转换流操作" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.IO操作.输出输入流操作.转换流操作" />
+      <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test9_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_2.Test04" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test9_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test9_2.Test06" />
-      <module name="Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test9_2.*" />
+          <option name="PATTERN" value="基础语法练习.IO操作.输出输入流操作.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.Test03" />
-        <item itemvalue="Application.Test02" />
-        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test01 (1)" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594487856127</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="输入输出流作业练习题签入">
+      <created>1594567983532</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594567983532</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +437,8 @@
     <MESSAGE value="HashMap作业" />
     <MESSAGE value="Stream流操作练习签入" />
     <MESSAGE value="File文件操作练习和作业代码签入" />
-    <option name="LAST_COMMIT_MESSAGE" value="File文件操作练习和作业代码签入" />
+    <MESSAGE value="输入输出流作业练习题签入" />
+    <option name="LAST_COMMIT_MESSAGE" value="输入输出流作业练习题签入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="67" key="#Auto_Import" timestamp="1594479556235">
@@ -389,10 +457,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594472804616" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1594397051120">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595009014832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594397051120" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595009014832" />
     <state x="437" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594479406334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,22 +477,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593343263545" />
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1594567538146">
+    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1595009160546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
-    <state width="1493" height="134" key="GridCell.Tab.0.center" timestamp="1594567538146">
+    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595009160546" />
+    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1595009160546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
-    <state width="1493" height="134" key="GridCell.Tab.0.left" timestamp="1594567538146">
+    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595009160546" />
+    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1595009160546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
-    <state width="1493" height="134" key="GridCell.Tab.0.right" timestamp="1594567538146">
+    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595009160546" />
+    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1595009160546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594567538146" />
+    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595009160546" />
     <state width="1390" height="174" key="GridCell.Tab.1.bottom" timestamp="1594487878264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -469,18 +537,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593499865364" />
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594487858148">
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595012518920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594487858148" />
+    <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595012518920" />
     <state x="499" y="160" key="extract.method.dialog" timestamp="1594395963207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594395963207" />
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1594566336136">
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1595004932730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594566336136" />
+    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595004932730" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
