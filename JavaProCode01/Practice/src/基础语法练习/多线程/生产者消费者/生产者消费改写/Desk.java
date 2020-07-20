@@ -1,4 +1,4 @@
-package 基础语法练习.多线程.生产者消费改写;
+package 基础语法练习.多线程.生产者消费者.生产者消费改写;
 
 public class Desk {
     private boolean flag;

@@ -1,4 +1,4 @@
-package 基础语法练习.多线程.生产者消费者Practice;
+package 基础语法练习.多线程.生产者消费者.生产者消费者Practice;
 
 public class Desk {
     private int count;

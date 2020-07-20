@@ -1,8 +1,5 @@
-package 基础语法练习.多线程.生产者消费者;
+package 基础语法练习.多线程.生产者消费者.生产者消费改写;
 /*
-
-
-
 * 消费者：
 * 判断桌子有没有
 * 没有则等待
@@ -17,9 +14,11 @@ package 基础语法练习.多线程.生产者消费者;
 * */
 public class ControlDemo {
     public static void main(String[] args) {
-        Cooker cooker = new Cooker();
-        Customer customer = new Customer();
+        Desk desk = new Desk(false,10);
+        Cooker cooker = new Cooker(desk);
+        Customer customer = new Customer(desk);
         cooker.start();
         customer.start();
+        System.out.println(111);
     }
 }

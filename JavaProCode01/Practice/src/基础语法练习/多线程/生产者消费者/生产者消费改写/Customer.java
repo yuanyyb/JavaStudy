@@ -1,30 +1,26 @@
-package 基础语法练习.多线程.生产者消费者Practice;
+package 基础语法练习.多线程.生产者消费者.生产者消费改写;
 
-public class Customer extends Thread{
-
+public class Customer extends Thread {
     private Desk desk;
-
-    public Customer() {
+    public Customer(Desk de){
+        this.desk = de;
     }
-
-    public Customer(Desk desk) {
-        this.desk = desk;
-    }
-
     @Override
     public void run() {
         while(true){
-            System.out.println("剩余资源："+desk.getCount());
-            synchronized(desk.getLocker()) {
-                if (desk.getCount() == 0) {
+            synchronized(desk.getLocker()){
+                System.out.println(desk.getCount());
+                if(desk.getCount()==0){
                     break;
-                }else{
-                    if(desk.isFlag()){
+                }else {
+                    if (desk.isFlag()) {
+                        //桌子有
                         System.out.println("消费者正在消费");
                         desk.setFlag(false);
-                        desk.setCount(desk.getCount()-1);
                         desk.getLocker().notifyAll();
-                    }else{
+                        desk.setCount(desk.getCount()-1);
+                    } else {
+                        //桌子没有则等待
                         try {
                             desk.getLocker().wait();
                         } catch (InterruptedException e) {
@@ -32,7 +28,6 @@ public class Customer extends Thread{
                         }
                     }
                 }
-
             }
         }
     }

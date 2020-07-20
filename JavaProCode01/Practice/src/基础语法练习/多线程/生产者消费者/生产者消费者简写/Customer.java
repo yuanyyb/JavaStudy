@@ -1,4 +1,4 @@
-package 基础语法练习.多线程.生产者消费者;
+package 基础语法练习.多线程.生产者消费者.生产者消费者简写;
 
 public class Customer extends Thread {
     @Override
