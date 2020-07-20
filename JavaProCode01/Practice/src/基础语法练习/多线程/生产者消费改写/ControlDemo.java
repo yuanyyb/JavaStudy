@@ -19,5 +19,6 @@ public class ControlDemo {
         Customer customer = new Customer(desk);
         cooker.start();
         customer.start();
+        System.out.println(111);
     }
 }
