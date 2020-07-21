@@ -13,7 +13,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:javaStudy" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
@@ -26,28 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="线程练习代码签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费改写/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费改写/Cooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费改写/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费改写/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费者/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费者/Cooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费者/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费者/Desk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/买票案例Runable_同步静态方法/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/买票案例Runable_同步静态方法/Ticket1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/买票案例Runable_同步静态方法/Ticket2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/买票案例_Lock方式解决/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/买票案例_Lock方式解决/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例Runable接口_同步代码块方式解决/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例Runable接口_同步代码块方式解决/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例_继承方式保证数据唯一同步/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例_继承方式保证数据唯一同步/TicketThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例_问题代码/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程方法/卖票案例_问题代码/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程的状态/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程的状态/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程的状态/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/volatile练习/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/volatile练习/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/volatile练习/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/线程池/volatile练习/Thread2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice/src/基础语法练习/多线程/生产者消费扩展" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -100,39 +84,13 @@
       <recent name="C:\JavaStudy\IDEA\JavaProCode01\Practice\src\基础语法练习\多线程\线程方法\买票案例_Lock方式解决" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test03">
-    <configuration name="转换流操作" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.IO操作.输出输入流操作.转换流操作" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.线程池.volatile练习.Test" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.IO操作.输出输入流操作.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.生产者消费者.ControlDemo" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="基础语法练习.多线程.生产者消费者.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.生产者消费改写.ControlDemo" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="基础语法练习.多线程.生产者消费改写.*" />
+          <option name="PATTERN" value="基础语法练习.多线程.线程池.volatile练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="基础语法练习.多线程.线程的状态.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.多线程.线程池.Test01" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础语法练习.多线程.线程池.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test01 (1)" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Test02" />
         <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.ControlDemo" />
-        <item itemvalue="Application.ControlDemo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -452,10 +423,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594472804616" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595083905455">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1595326288383">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595083905455" />
+    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595326288383" />
     <state x="437" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594479406334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -472,38 +444,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593343263545" />
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1595095973680">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1595326962999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1595095973680">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595326962999" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1595326962998">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1595095973680">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595326962998" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1595326962998">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1595095973680">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595326962998" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1595326962999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1390" height="174" key="GridCell.Tab.1.bottom" timestamp="1594487878264">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595326962999" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595299911257">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1390" height="174" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
-    <state width="1390" height="174" key="GridCell.Tab.1.center" timestamp="1594487878264">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595299911257" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1595299911256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1390" height="174" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
-    <state width="1390" height="174" key="GridCell.Tab.1.left" timestamp="1594487878263">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595299911256" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1595299911256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1390" height="174" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594487878263" />
-    <state width="1390" height="174" key="GridCell.Tab.1.right" timestamp="1594487878264">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595299911256" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1595299911256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1390" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594487878264" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595299911256" />
     <state x="86" y="10" key="MergeDialog" timestamp="1593358862966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
