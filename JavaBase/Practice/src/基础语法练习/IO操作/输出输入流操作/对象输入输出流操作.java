@@ -9,7 +9,7 @@ public class 对象输入输出流操作 {
         Student stu1 = new Student("杜子腾", 19);
         Student stu2 = new Student("中年大叔", 22);
         //如果设置成可续写则抛出StreamCorruptedException异常
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Practice\\src\\基础语法练习\\IO操作\\输出输入流操作\\eeee.txt"));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Practice\\src\\基础语法练习\\IO操作\\输出输入流操作\\eeee.txt",true));
         oos.writeObject(stu);
         oos.writeObject(stu1);
         oos.writeObject(stu2);
