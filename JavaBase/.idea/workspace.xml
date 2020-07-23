@@ -26,18 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="线程练习代码签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/广播案例/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/广播案例/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/改进后的发送接收案例/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/改进后的发送接收案例/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/码头发送包裹案例/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/码头发送包裹案例/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/组播案例/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/UDP/组播案例/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/基本操作/InetAddress基本使用.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/基本使用/ServerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <recent name="C:\JavaStudy\IDEA\JavaProCode01\Practice\src\基础语法练习\多线程\线程方法\买票案例_Lock方式解决" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerDemo (1)">
+  <component name="RunManager" selected="Application.ClientDemo (1)">
     <configuration name="ClientDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.基本使用.ClientDemo" />
       <module name="Practice" />
@@ -205,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerDemo (1)" />
         <item itemvalue="Application.ClientDemo (1)" />
+        <item itemvalue="Application.ServerDemo (1)" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.ServerDemo" />
         <item itemvalue="Application.ClientDemo (2)" />
@@ -367,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595413416135</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="网络编程UDP和TCP练习">
+      <created>1595497191782</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595497191782</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +427,8 @@
     <MESSAGE value="线程练习代码签入" />
     <MESSAGE value="线程池操作volatile" />
     <MESSAGE value="多线程练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程练习" />
+    <MESSAGE value="网络编程UDP和TCP练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络编程UDP和TCP练习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="67" key="#Auto_Import" timestamp="1594479556235">
@@ -477,26 +476,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593343263545" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1595494019566">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1595497910465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595494019566" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1595494019565">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1595497910465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595494019565" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1595494019565">
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1595497910465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595494019565" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1595494019566">
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1595497910465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595095973680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595494019565" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595402830114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -545,28 +544,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="324" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1593358534147" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595413446382">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595497223894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595413446382" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497223894" />
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593499865364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1593499865364" />
-    <state x="743" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595413427833">
+    <state x="743" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595497206655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="594" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595012564945" />
-    <state x="743" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595413427833" />
+    <state x="743" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497206655" />
     <state x="499" y="160" key="extract.method.dialog" timestamp="1594395963207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594395963207" />
-    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup" timestamp="1595473185917">
+    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup" timestamp="1595497156647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595094966988" />
-    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595473185917" />
+    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497156647" />
     <state x="347" y="266" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1595413344110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -10,7 +10,7 @@ public class ClientDemo {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("127.0.0.1",10001);
         OutputStream os = socket.getOutputStream();
-        os.write("abcdef".getBytes());
+        os.write("你好".getBytes());
         os.close();
         socket.close();
     }
