@@ -26,12 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="线程练习代码签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/发送数据且回复接收到数据/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/发送数据且回复接收到数据/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDir/day14-网络编程01.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/缓冲区基本操作方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ClientDir/day14-网络编程01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/FileUploadServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ServerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ServerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDir" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ClientDir" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,19 +82,20 @@
       <recent name="Test10_1.Test04" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaStudy\IDEA\JavaBase\Practice\src\基础语法练习\网络编程\TCP\文件上传程序优化\ClientDir" />
+      <recent name="E:\JavaStudy\IDEA\JavaBase\Practice\src\基础语法练习\网络编程\TCP\文件上传程序优化" />
       <recent name="C:\JavaStudy\JavaTest\JavaBase\Practice\src\基础语法练习\网络编程\TCP\网络上传文件\ClientDir" />
       <recent name="E:\JavaStudy\IDEA\JavaBase\Practice\src\基础语法练习\网络编程\UDP\广播案例" />
       <recent name="C:\JavaStudy\IDEA\JavaProCode01\Practice\src\基础语法练习\多线程\生产者消费扩展" />
-      <recent name="C:\JavaStudy\IDEA\JavaProCode01\Practice\src\基础语法练习\多线程\线程方法\买票案例_Lock方式解决" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientDemo">
+  <component name="RunManager" selected="Application.ServerDemo (1)">
     <configuration name="ClientDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.基本使用.ClientDemo" />
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.文件上传程序优化.ClientDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.基本使用.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.TCP.文件上传程序优化.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.发送数据且回复接收到数据.ServerDemo" />
+    <configuration name="ServerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.文件上传程序优化.ServerDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.发送数据且回复接收到数据.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.TCP.文件上传程序优化.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerDemo (1)" />
+        <item itemvalue="Application.ClientDemo (1)" />
         <item itemvalue="Application.ClientDemo" />
         <item itemvalue="Application.ServerDemo" />
         <item itemvalue="Application.ClientDemo (2)" />
-        <item itemvalue="Application.ServerDemo (2)" />
-        <item itemvalue="Application.ClientDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -455,11 +459,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594472804616" />
-    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1595407863874">
+    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1595557479944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595083905455" />
-    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595407863874" />
+    <state x="718" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595557479944" />
     <state x="640" y="254" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595402697000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -480,26 +484,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595517127910" />
-    <state width="932" height="198" key="GridCell.Tab.0.bottom" timestamp="1595517282258">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1595582115191">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="932" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
-    <state width="932" height="198" key="GridCell.Tab.0.center" timestamp="1595517282258">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1595582115191">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="932" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
-    <state width="932" height="198" key="GridCell.Tab.0.left" timestamp="1595517282258">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1595582115191">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="932" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
-    <state width="932" height="198" key="GridCell.Tab.0.right" timestamp="1595517282258">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1595582115191">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="932" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497910465" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595402830114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
