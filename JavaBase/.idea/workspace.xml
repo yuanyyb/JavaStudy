@@ -26,15 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4256f1ba-750c-4e9d-b4da-cb4017691591" name="Default Changelist" comment="线程练习代码签入">
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/缓冲区基本操作方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ClientDir/day14-网络编程01.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/FileUploadServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/文件上传程序优化/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/选择器基本操作/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/选择器基本操作/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作练习/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作练习/ServerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ClientDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/TCP/网络上传文件/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/缓冲区基本操作方法.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/缓冲区基本操作方法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/src/基础语法练习/网络编程/NIO/通道基本操作方法.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +89,13 @@
       <recent name="C:\JavaStudy\IDEA\JavaProCode01\Practice\src\基础语法练习\多线程\生产者消费扩展" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerDemo (1)">
+  <component name="RunManager" selected="Application.ServerDemo (2)">
     <configuration name="ClientDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.文件上传程序优化.ClientDemo" />
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.NIO.通道基本操作练习.ClientDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.文件上传程序优化.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.NIO.通道基本操作练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +104,11 @@
       </method>
     </configuration>
     <configuration name="ClientDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.发送数据且回复接收到数据.ClientDemo" />
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.NIO.选择器基本操作.ClientDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.发送数据且回复接收到数据.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.NIO.选择器基本操作.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
       </method>
     </configuration>
     <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.网络上传文件.ClientDemo" />
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.NIO.通道基本操作.ClientDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.网络上传文件.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.NIO.通道基本操作.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="ServerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.文件上传程序优化.ServerDemo" />
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.NIO.通道基本操作练习.ServerDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.文件上传程序优化.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.NIO.通道基本操作练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.TCP.网络上传文件.ServerDemo" />
+    <configuration name="ServerDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础语法练习.网络编程.NIO.选择器基本操作.ServerDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础语法练习.网络编程.TCP.网络上传文件.*" />
+          <option name="PATTERN" value="基础语法练习.网络编程.NIO.选择器基本操作.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerDemo (1)" />
-        <item itemvalue="Application.ClientDemo (1)" />
-        <item itemvalue="Application.ClientDemo" />
-        <item itemvalue="Application.ServerDemo" />
+        <item itemvalue="Application.ServerDemo (2)" />
         <item itemvalue="Application.ClientDemo (2)" />
+        <item itemvalue="Application.ClientDemo (1)" />
+        <item itemvalue="Application.ServerDemo (1)" />
+        <item itemvalue="Application.ClientDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595497191782</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="网络编程NIO">
+      <created>1595683622545</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1595683622545</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +443,8 @@
     <MESSAGE value="线程池操作volatile" />
     <MESSAGE value="多线程练习" />
     <MESSAGE value="网络编程UDP和TCP练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="网络编程UDP和TCP练习" />
+    <MESSAGE value="网络编程NIO" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络编程NIO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="67" key="#Auto_Import" timestamp="1594479556235">
@@ -484,26 +492,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="788" y="256" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595517127910" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1595582115191">
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1595844285787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1595582115191">
+    <state width="1493" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595688820397" />
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595844285787" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1595844285787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1595582115191">
+    <state width="1493" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595688820397" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595844285787" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1595844285787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1595582115191">
+    <state width="1493" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595688820397" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595844285787" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1595844285787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="932" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595517282258" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595582115191" />
+    <state width="1493" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595688820397" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595844285787" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595402830114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -544,17 +552,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593343206038" />
-    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1595403222769">
+    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1595818858317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595403222769" />
+    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595818858317" />
     <state x="614" y="324" key="VCS.ChangelistChooser" timestamp="1593358534147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="324" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1593358534147" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595497223894">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1595688826399">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595688826399" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497223894" />
     <state x="475" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593499865364">
       <screen x="0" y="0" width="1536" height="824" />
@@ -569,11 +578,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1594395963207" />
-    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup" timestamp="1595497156647">
+    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup" timestamp="1595843776790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595094966988" />
-    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595497156647" />
+    <state x="538" y="184" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595843776790" />
     <state x="347" y="266" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1595413344110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
