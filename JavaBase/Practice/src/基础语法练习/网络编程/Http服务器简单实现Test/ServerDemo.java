@@ -29,9 +29,14 @@ public class ServerDemo {
                         ConnetHandler con = new ConnetHandler();
                         con.createConnet(key);
                     }else if(key.isReadable()){
-                        HttpRequest hr = new HttpRequest();
-                        hr.parse(key);
-                        System.out.println("请求数据:"+hr);
+                        HttpRequest request = new HttpRequest();
+                        request.parse(key);
+                        System.out.println("请求数据:---->"+request);
+                        //开始向客户端回传数据
+                        System.out.println("开始向客户端回传文件");
+                        HttpResponse response = new HttpResponse();
+                        response.setHttpRequest(request);
+                        response.sendStaticResouce(key);
                     }
                     iterator.remove();
                 }

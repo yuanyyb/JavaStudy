@@ -12,7 +12,7 @@ public class HttpRequest {
     private String method;
     private String requestURI;
     private String version;
-    private HashMap<String, String> hm;
+    private HashMap<String, String> hm = new HashMap<>();
 
     //获取请求数据
     public void parse(SelectionKey key) {
