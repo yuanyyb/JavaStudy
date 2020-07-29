@@ -26,13 +26,17 @@ public class ServerDemo {
                 while(iterator.hasNext()){
                     SelectionKey key = iterator.next();
                     if(key.isAcceptable()){
-                        ConnetHandler con = new ConnetHandler();
+                        ConnectHandler con = new ConnectHandler();
                         con.createConnet(key);
                     }else if(key.isReadable()){
                         HttpRequest request = new HttpRequest();
                         request.parse(key);
                         System.out.println("请求数据:---->"+request);
                         //开始向客户端回传数据
+                        if(request.getRequestURI()==null||"".equals(request.getRequestURI())){
+                            key.channel();
+                            continue;
+                        }
                         System.out.println("开始向客户端回传文件");
                         HttpResponse response = new HttpResponse();
                         response.setHttpRequest(request);

@@ -16,9 +16,8 @@ public class HttpRequest {
 
     //获取请求数据
     public void parse(SelectionKey key) {
-        SocketChannel sc = null;
         try {
-            sc = (SocketChannel) key.channel();
+            SocketChannel sc = (SocketChannel) key.channel();
             ByteBuffer bb = ByteBuffer.allocate(1024);
             int len;
             StringBuilder sb = new StringBuilder();
@@ -27,18 +26,9 @@ public class HttpRequest {
                 sb.append(new String(bb.array(), 0, len));
                 bb.clear();
             }
-            System.out.println(sb);
             parseHttpRequest(sb);
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (sc != null) {
-                try {
-                    sc.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
     }
 

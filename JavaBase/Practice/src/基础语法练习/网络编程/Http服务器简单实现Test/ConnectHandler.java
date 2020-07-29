@@ -5,7 +5,7 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 //定义链接控制类用于创建链接
-public class ConnetHandler {
+public class ConnectHandler {
 
     public SocketChannel createConnet(SelectionKey key) {
         try {
